@@ -1,0 +1,22 @@
+{
+	"format_version": [1, 1, 0],
+	"quartz_block": {
+		"textures": {
+			"up": "quartz_block_top",
+			"down": "quartz_block_top",
+			"side": "quartz_block_side"
+		},
+		"sound": "stone"
+	},
+	"quartz_stairs": {
+		"textures": {
+			"up": "stair_quartz_block_top",
+			"down": "stair_quartz_block_top",
+			"side": "stair_quartz_block_side"
+		}
+	},
+	"smooth_quartz_stairs": {
+		"textures": "stair_quartz_block_bottom",
+		"sound": "stone"
+	}
+}
