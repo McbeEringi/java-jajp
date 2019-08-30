@@ -27,7 +27,6 @@
 		"anchor_to": "top_left",
 		"controls": [
 			{ "drop_one_button@crafting.drop_one_button": {} },
-			{ "player_armor_panel@player_armor_panel": {} },
 			{ "crafting_panel@work_bench_panel_3x3": {} }
 		]
 	}
