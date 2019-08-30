@@ -10,12 +10,12 @@
 	"gui_button@hud.hidden_button":{
 		"anchor_from": "bottom_right",
 		"anchor_to": "bottom_right",
-		"$pressed_button_name": "button.hide_gui_all",
+		"$pressed_button_name": "button.hide_gui_all"
 	},
 	"doll_button@hud.hidden_button":{
 		"anchor_from": "top_left",
 		"anchor_to": "top_left",
-		"$pressed_button_name": "button.hide_paperdoll_hud",
+		"$pressed_button_name": "button.hide_paperdoll_hud"
 	},
 
 	"hud_content": {
