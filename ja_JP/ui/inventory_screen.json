@@ -1,0 +1,80 @@
+{
+	"namespace": "crafting",
+
+	"output_grid_3x3": {
+		"size": [ 18, 18 ],
+		"controls": [
+			{
+				"work_bench_output@crafting.inventory_container_item": {
+					"size": [ 18, 18 ],
+					"$cell_image_size": [ 18, 18 ],
+					"$item_collection_name": "crafting_output_items",
+					"$button_ref": "crafting.output_no_coalesce_container_slot_button",
+					"$stack_count_binding_condition": "always",
+					"$item_renderer_binding_condition": "always",
+					"$background_images": "crafting.crafting_container_cell_images",
+
+					"$focus_id_binding_type": "none",
+					"$focus_id": "crafting_output_item",
+
+					"$focus_override_right_binding_type": "none",
+					"$focus_override_right": "FOCUS_OVERRIDE_STOP"
+				}
+			}
+		]
+	},
+	"work_bench_panel_3x3": {
+		"type": "panel",
+		"anchor_to": "top_left",
+		"anchor_from": "top_middle",
+		"offset": [9,-1],
+		"controls": [
+			{
+				"crafting_arrow@crafting_arrow": {
+					"offset": [ 9, 66 ]
+				}
+			},
+			{
+				"crafting_grid_3x3@crafting_grid_3x3": {
+					"offset": [ 0, 8 ]
+				}
+			},
+			{
+				"work_bench_output_grid@crafting.output_grid_3x3": {
+					"offset": [ 27, 64 ]
+				}
+			}
+		]
+	},
+
+	"drop_one_button@common_buttons.light_text_button":{
+		"anchor_from": "bottom_right",
+		"anchor_to": "bottom_right",
+		"size": [18,18],
+		"offset": [-8,0],
+		"$button_text": "①",
+		"$pressed_button_name": "button.drop_one"
+	},
+	"survival_panel_top_half": {
+		"type": "panel",
+		"size": [ "100%", "50%" ],
+		"anchor_to": "top_left",
+		"anchor_from": "top_left",
+		"controls": [
+			{ "drop_one_button@crafting.drop_one_button": {} },
+			{ "player_armor_panel@player_armor_panel": {} },
+			{ "crafting_panel@crafting_panel_2x2": {} }
+		]
+	},
+	"crafting_panel_top_half": {
+		"type": "panel",
+		"size": [ "100%", "50%" ],
+		"anchor_from": "top_left",
+		"anchor_to": "top_left",
+		"controls": [
+			{ "drop_one_button@crafting.drop_one_button": {} },
+			{ "player_armor_panel@player_armor_panel": {} },
+			{ "crafting_panel@work_bench_panel_3x3": {} }
+		]
+	}
+}
