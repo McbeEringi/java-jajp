@@ -27,7 +27,7 @@
 		"anchor_to": "top_left",
 		"controls": [
 			{ "drop_one_button@crafting.drop_one_button": {} },
-			{ "crafting_panel@work_bench_panel_3x3": {} }
+			{ "crafting_panel@work_bench_panel_3x3": {"offset": [ 29, 0 ]} }
 		]
 	}
 }
