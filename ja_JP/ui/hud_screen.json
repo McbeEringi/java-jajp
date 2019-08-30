@@ -16,6 +16,13 @@
 		"anchor_from": "top_left",
 		"anchor_to": "top_left",
 		"$pressed_button_name": "button.hide_paperdoll_hud"
+		"bindings": [
+			{
+				"binding_name": "#hud_visible",
+				"binding_name_override": "#visible",
+				"binding_type": "global"
+			}
+		]
 	},
 
 	"hud_content": {
