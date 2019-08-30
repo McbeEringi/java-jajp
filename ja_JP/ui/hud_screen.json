@@ -1,0 +1,33 @@
+{
+	"namespace": "hud",
+
+	"test_button@common_buttons.light_content_button":{
+		"size": [ 16, 16 ],
+		"anchor_from": "bottom_right",
+		"anchor_to": "bottom_right",
+		"$pressed_button_name": "button.hide_gui_all",
+		"$default_state_border_visible": false,
+		"$default_button_alpha": 0,
+		"$default_hover_alpha": 0.5
+	},
+	"hud_content": {
+		"type": "panel",
+		"$hud_player_rend_desktop_offset|default": [ 15, 15 ],
+		"variables": [
+			{
+				"requires": "($is_holographic and not $is_living_room_mode)",
+				"$hud_player_rend_desktop_offset": [ 100, 50 ]
+			}
+		],
+		"controls": [
+			{ "test_button@hud.test_button": {} },
+			{ "root_panel@hud.root_panel": {} },
+			{
+				"camera_renderer@camera_renderer": {
+					"ignored": "(not $education_edition)"
+				}
+			},
+			{ "inventory_selected_icon_button@common.inventory_selected_icon_button": {} }
+		]
+	}
+}
