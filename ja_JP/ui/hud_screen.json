@@ -3,6 +3,7 @@
 
 	"hidden_button@common_buttons.light_content_button":{
 		"size": [ 16, 16 ],
+		"ignored": "(not $touch)",
 		"$default_state_border_visible": false,
 		"$default_button_alpha": 0,
 		"$default_hover_alpha": 0.5

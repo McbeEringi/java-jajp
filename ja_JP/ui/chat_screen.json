@@ -2,6 +2,7 @@
 	"namespace": "chat",
 	"txt_button@common_buttons.light_text_button": {
 		"size": [ 27, 27 ],
+		"ignored": "(not $touch)",
 		"layer": 1,
 		"anchor_from": "bottom_right",
 		"anchor_to": "bottom_right"

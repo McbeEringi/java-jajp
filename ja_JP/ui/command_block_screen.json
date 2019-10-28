@@ -3,6 +3,7 @@
 
 	"txt_button@common_buttons.light_text_button": {
 		"size": [ 30, 30 ],
+		"ignored": "(not $touch)",
 		"layer": 18
 	},
 

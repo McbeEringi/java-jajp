@@ -6,6 +6,7 @@
 		"anchor_to": "bottom_right",
 		"size": [18,18],
 		"offset": [-7,0],
+		"ignored": "(not $touch)",
 		"$button_text": "①",
 		"$pressed_button_name": "button.drop_one"
 	},
