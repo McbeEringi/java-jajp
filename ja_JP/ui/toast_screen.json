@@ -1,7 +1,1 @@
-{
-	"namespace": "toast_screen",
-	"popup@common.input_panel": {
-		"size": [ "50%", 26 ],
-		"offset": [ 0, 13 ]
-	}
-}
+{"namespace":"toast_screen","popup@common.input_panel":{"size":["50%",26],"offset":[0,13]}}
