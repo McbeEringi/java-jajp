@@ -86,12 +86,12 @@
 				"auto_complete_panel@chat.auto_complete_panel": {
 					"anchor_from": "bottom_left",
 					"anchor_to": "bottom_left"
-					}
-				},
-				{"autocomplete@chat.autocomplete": {}},
-				{"Sautocomplete@chat.Sautocomplete": {}},
-				{"previous@chat.previous": {}},
-				{"next@chat.next": {}}
+				}
+			},
+			{"autocomplete@chat.autocomplete": {}},
+			{"Sautocomplete@chat.Sautocomplete": {}},
+			{"previous@chat.previous": {}},
+			{"next@chat.next": {}}
 		]
 	}
 }
