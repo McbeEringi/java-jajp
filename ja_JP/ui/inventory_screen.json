@@ -8,7 +8,16 @@
 		"offset": [-7,0],
 		"ignored": "(not $touch)",
 		"$button_text": "①",
-		"$pressed_button_name": "button.drop_one"
+		"$pressed_button_name": "button.cursor_drop_one"
+	},
+	"drop_one_button@common_buttons.light_text_button":{
+		"anchor_from": "bottom_right",
+		"anchor_to": "bottom_right",
+		"size": [18,18],
+		"offset": [-25,0],
+		"ignored": "(not $touch)",
+		"$button_text": "½",
+		"$pressed_button_name": "button.cursor_drop_one"
 	},
 	"survival_panel_top_half": {
 		"type": "panel",
