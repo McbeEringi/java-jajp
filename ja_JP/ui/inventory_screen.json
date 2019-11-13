@@ -26,7 +26,7 @@
 		"anchor_from": "top_left",
 		"controls": [
 			{ "drop_one_button@crafting.drop_one_button": {} },
-			{ "drop_half_button@crafting.drop_half_button": {} },
+			//{ "drop_half_button@crafting.drop_half_button": {} },
 			{ "player_armor_panel@player_armor_panel": {} },
 			{ "crafting_panel@crafting_panel_2x2": {} }
 		]
@@ -38,7 +38,7 @@
 		"anchor_to": "top_left",
 		"controls": [
 			{ "drop_one_button@crafting.drop_one_button": {} },
-			{ "drop_half_button@crafting.drop_half_button": {} },
+			//{ "drop_half_button@crafting.drop_half_button": {} },
 			{ "crafting_panel@work_bench_panel_3x3": {"offset": [ 29, 0 ]} }
 		]
 	}
