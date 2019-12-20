@@ -1019,7 +1019,7 @@ tile.concretePowder.orange.name=橙色のコンクリート パウダー	#
 tile.concretePowder.white.name=白色のコンクリート パウダー	#
 
 
-##木材&植物
+##木材
 
 tile.sapling.big_oak.name=ダークオークの苗木	#
 tile.sapling.birch.name=シラカバの苗木	#
@@ -1126,6 +1126,9 @@ tile.birch_standing_sign.name=シラカバの看板	#
 tile.jungle_standing_sign.name=ジャングルの看板	#
 tile.darkoak_standing_sign.name=ダークオークの看板	#
 
+
+##植物
+
 itemGroup.name.grass=草	#
 tile.cocoa.name=カカオ	#
 tile.farmland.name=耕地	#
@@ -1137,6 +1140,7 @@ tile.red_flower.lilyOfTheValley.name=スズラン	#
 item.sweet_berries.name=スイートベリー	#
 tile.wither_rose.name=ウィザーローズ	#
 item.kelp.name=コンブ	#
+tile.vine.name=ツタ	#
 
 itemGroup.name.mushroom=キノコ	#
 tile.brown_mushroom.name=茶色のキノコ	#
@@ -1255,6 +1259,7 @@ tile.carved_pumpkin.name=くり抜かれたカボチャ	#
 item.poisonous_potato.name=青くなったジャガイモ	#
 item.suspicious_stew.name=怪しげなシチュー	#
 item.egg.name=卵	#
+item.honey_bottle.name=ハチミツ入りの瓶	#
 
 
 ##道具
