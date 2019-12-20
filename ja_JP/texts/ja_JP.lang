@@ -182,7 +182,10 @@ entity.pillager.name=ピリジャー	#
 entity.illager_beast.name=ラベジャー	#
 entity.villager_v2.name=村人	#
 entity.zombie_villager_v2.name=村人ゾンビ	#
+entity.bee.name=ミツバチ	#
 
+item.spawn_egg.entity.bee.name=ミツバチのスポーンエッグ	#
+item.spawn_egg.entity.cat.name=ネコのスポーンエッグ	#
 item.spawn_egg.entity.chicken.name=ニワトリのスポーンエッグ	#
 item.spawn_egg.entity.cow.name=ウシのスポーンエッグ	#
 item.spawn_egg.entity.pig.name=ブタのスポーンエッグ	#
@@ -240,138 +243,10 @@ item.spawn_egg.entity.phantom.name=ファントムのスポーンエッグ	#
 item.spawn_egg.entity.pillager.name=ピリジャーのスポーンエッグ	#
 item.spawn_egg.entity.wandering_trader.name=行商人のスポーンエッグ	#
 item.spawn_egg.entity.illager_beast.name=ラベジャーのスポーンエッグ	#
+item.spawn_egg.entity.ravager.name=ラベジャーのスポーンエッグ	#
 item.spawn_egg.entity.villager_v2.name=村人のスポーンエッグ	#
+item.spawn_egg.entity.fox.name=キツネのスポーンエッグ	#
 item.spawn_egg.entity.zombie_villager_v2.name=村人ゾンビのスポーンエッグ	#
-
-##遊び方
-
-howtoplay.anvil.text.3=アイテムを修理するには、左側のマスに修理したいアイテムと、そのアイテムの材料 (例: 鉄の剣には鉄のインゴット)  か同じ種類のアイテムのいずれかを配置します	#
-howtoplay.anvil.text.5=金床は何度も使うと脆くなり、終いには壊れてなくなります	#
-
-howtoplay.armor.text.2=防具は、革、鉄、金、またはダイヤモンドを素材にしてクラフトできます。チェーン防具は、村人と取引することで入手できる他に、ゾンビやスケルトンがドロップすることもあります	#
-howtoplay.armor.text.4=鉄、チェーン、金の防具をかまどで精錬すると、鉄塊や金塊になります	#
-howtoplay.armorStand.text.2.touch=防具立てに防具を取り付けるには、防具のパーツを手に持っている状態で防具立てを長押しします	#
-howtoplay.armorStand.text.3.touch=手に何も持っていない状態で防具立てを長押しすると、防具立てに取り付けられた防具を取ることができます	#
-howtoplay.armorStand.text.4.notTouch=防具立てのポーズは変更できます。ポーズを変えるには、スニーク状態で防具立てにポインターを合わせて :_input_key.use: を押します	#
-howtoplay.armorStand.text.4.touch=防具立てのポーズは変更できます。ポーズを変えるには、スニーク状態で防具立てを長押しします	#
-howtoplay.banners.text.4=  - 染料を三角に配置すると、山形の模様になります	#
-howtoplay.beacons.text.6=ビーコンのパワーを設定するには、エメラルド、ダイヤモンド、金または鉄のインゴットを支払いスロットで使用する必要があります	#
-howtoplay.beds.text.4=ベッドが壊れているときに死亡すると、初期スポーン地点に戻ります	#
-howtoplay.blocks.text.8=マグマ - ネザーで見つかる、わずかな光を発するブロック。生き物が足を踏み入れると燃えてしまいます	#
-
-howtoplay.chests.text.1.notTouch=チェストをクラフトしたら、それを地面に置いてから :_input_key.use: を押して開き、インベントリのアイテムをしまいましょう	#
-howtoplay.chests.text.1.touch=チェストをクラフトしたら、それを地面に置いてからタップして開き、インベントリのアイテムをしまいましょう	#
-howtoplay.chests.text.3=2 つのチェストを隣同士に置くと合体して、ラージチェストになります	#
-
-howtoplay.controls.header.3=スニーク	#
-howtoplay.controls.text.8.keyboard=Minecraft では、スニークがとても役立ちます。スニークをしている間は、ブロックから落ちることがなく、ネームタグが表示されません。スニーク状態になるには、Shift キーを押し続けます	#
-howtoplay.controls.text.8.gamepad=Minecraft では、スニークがとても役立ちます。スニークをしている間は、ブロックから落ちることがなく、ネームタグが表示されません。スニーク状態のオン/オフは、:_gamepad_face_button_right: または click :_gamepad_stick_right: を押して切り替えます	#
-howtoplay.controls.text.8.touch=Minecraft では、スニークがとても役立ちます。スニークをしている間は、ブロックから落ちることがなく、ネームタグが表示されません。スニーク状態のオン/オフは、:touch_sneak: をタップして切り替えます	#
-howtoplay.controls.text.8.rift_controller=Minecraft では、スニークがとても役立ちます。スニークをしている間は、ブロックから落ちることがなく、ネームタグが表示されません。スニーク状態のオン/オフは、:rift_X: を押して切り替えます	#
-howtoplay.controls.text.8.windowsmr_controller=Minecraft では、スニークがとても役立ちます。スニークをしている間は、ブロックから落ちることがなく、ネームタグが表示されません。スニーク状態のオン/オフは、:windowsmr_right_stick: を押して切り替えます	#
-
-howtoplay.crafting.text.1.touch=レシピ本とクラフト グリッドにアクセスするには「インベントリ」ボタンを押します	#
-howtoplay.crafting.text.2=クラフト グリッドに、インベントリやホットバーのアイテムを、アイテムのレシピの形通りに配置します	#
-howtoplay.crafting.text.7=画面の左側にはレシピ本が表示されています。レシピ本は、レシピを忘れてしまったとき、または既に知っているレシピを素早くクラフトしたいときに便利です。インベントリ画面の右上には、クラフト グリッドも表示されています	#
-howtoplay.crafting.text.8.keyboard=クラフトしたいレシピを選択して :_input_key.attack: を押すと、そのレシピがクラフト グリッドに表示されます。次に、クラフト グリッドの右側にある完成品スロットからアイテムを取り、インベントリに入れます。:_input_key.use: を押すと、レシピが自動的にクラフトされます。この場合は、アイテムが 1 回分クラフトされ、インベントリに入ります。Shift キーを押しながら :_input_key.use: を押すと、スタック全体を自動的にクラフトします	#
-howtoplay.crafting.text.8.gamepad=クラフトしたいレシピを選択して :_gamepad_face_button_down: を押すと、そのレシピが自動的にクラフトされます。この場合は、アイテムが 1 回分クラフトされ、インベントリに入ります。:_gamepad_face_button_up: を押すと、スタック全体を自動的にクラフトします	#
-howtoplay.crafting.text.8.touch=クラフトしたいレシピをタップすると、そのレシピがクラフト グリッドに表示されます。その後、完成品スロット内のアイテムをタップすると、そのアイテムがクラフトされます。アイテムをクラフトし続けるには、完成品スロット内のアイテムを長押しします	#
-howtoplay.crafting.text.9=:craftable_toggle_on: がオンになっていると、材料を持っているレシピがすべてレシピ本に表示されます。:craftable_toggle_off: がオフになっていると、クラフト可能かどうかを問わず、ゲームに登場するすべてのレシピがレシピ本に表示されます。特定の種類のアイテムを探している場合は、タブを切り替えて確認したり、検索することができます。クリエイティブモードでは、一部のレシピは折りたたまれたリストになっています。リストを開くと折りたたまれていたレシピがすべて表示されて確認できるようになります 	#
-
-howtoplay.creativeMode.title=遊び方: クリエイティブモード	#
-howtoplay.creativeMode.text.1=クリエイティブモードでは、モブに邪魔をされない世界で、心ゆくまで建築を楽しむことができます!	#
-howtoplay.creativeMode.text.2=クリエイティブモードの画面では、掘ったりクラフトをする必要なく、好きなアイテムをインベントリに加えられるようになっています。インベントリに加えたアイテムは世界に配置または使用しても消費されないため、プレイヤーは材料集めから解放され、建築に集中できます	#
-
-howtoplay.dispensers.text.2.notTouch=ディスペンサーにアイテムを入れるには、ディスペンサーに向かって :_input_key.use: を押した後、射出したいアイテムをインベントリからディスペンサーに移します	#
-howtoplay.dispensers.text.2.touch=ディスペンサーにアイテムを入れるには、ディスペンサーをタップした後、射出したいアイテムをインベントリからディスペンサーに移します	#
-
-howtoplay.droppers.text.1.notTouch=ドロッパーは、レッドストーンからの動力を得ると、中に入ったアイテムをランダムに 1 つ射出します。ドロッパーに向かって :_input_key.use: を押すと開く画面で、インベントリからアイテムを移すことができます	#
-howtoplay.droppers.text.1.touch=ドロッパーは、レッドストーンからの動力を得ると、中に入ったアイテムをランダムに 1 つ射出します。ドロッパーをタップすると開く画面で、インベントリからアイテムを移すことができます	#
-
-howtoplay.dyes.text.4=-水中で手に入るイカスミ	#
-
-howtoplay.elytra.text.1=エリトラは、装備すると滑空が可能になるアイテムです。このアイテムはチェストプレートスロットに装備できます	#
-howtoplay.elytra.text.3.notTouch=エリトラを装備した状態で落下中に :_input_key.jump: を押すと滑空します。エリトラの真価を発揮するためにも、十分な高さから落下しましょう!	#
-howtoplay.elytra.text.3.touch=エリトラを装備した状態で落下中に :_input_key.jump: をタップすると滑空します。エリトラの真価を発揮するためにも、十分な高さから落下しましょう!	#
-howtoplay.elytra.text.4=滑空中は、周囲を見渡すことができます。下を見るとスピードアップしますが、高度が下がる勢いも早くなります。上を見るとある程度まで上昇できますが、長く続けすぎると失速し、一転して下降し始めます!	#
-howtoplay.elytra.text.5=滑空するとエリトラの耐久度が減りますが、金床で革と組み合わせれば、エリトラを修理できます。空中でエリトラが壊れるとそのまま落ちてしまうので、耐久度には気を配りましょう!	#
-
-howtoplay.fireworks.text.6.1=  - 色 - 染料を加えると、花火がその染料の色になります	#
-howtoplay.fireworks.text.6.2=  - 点滅 - グロウストーンダストを加えると、点滅する花火になります	#
-howtoplay.fireworks.text.6.3=  - クリーパー形 - モブの頭を加えると、クリーパーの顔の形の花火になります	#
-howtoplay.fireworks.text.6.4=  - 破裂 - 羽根を加えると、花火に破裂の効果が加わります	#
-howtoplay.fireworks.text.6.5=  - 光跡 - ダイヤモンドを加えると、花火に光の跡が残ります	#
-howtoplay.fireworks.text.6.6=  - 星形 - 金の塊を加えると、花火が星の形になります	#
-howtoplay.fireworks.text.7=花火はディスペンサーから発射でき、ディスペンサーの正面が向いているのに発射されます	#
-
-howtoplay.furnace.text.1=かまどでは、アイテムを調理したり精錬することができます。例えば、鉄鉱石を精錬すると、鉄のインゴットになります	#
-howtoplay.gameSettings.text.7=-世界の種類: この設定では、生成される世界の種類を変更できます。種類を変更するには、ドロップダウン メニューから、「無限」、「スーパーフラット」、「クラシック」のいずれかを選択します	#
-howtoplay.gameSettings.text.7.1=  - 無限の世界はどこまでも広がっています	#
-howtoplay.gameSettings.text.7.2=  - スーパーフラットの世界は、丘陵や樹木が存在しない平坦な大地のため、気ままに建築を楽しめます。この世界も無限に広がっています	#
-howtoplay.gameSettings.text.7.3=  - クラシックの世界は、広さと高さに制限があります	#
-
-howtoplay.gameSettings.text.13=-火の延焼: この設定がオンになっていると、火が他のブロックに燃え移ったり、雨によって消えたり、ブロックが燃えて消えることがなくなります	#
-howtoplay.gameSettings.text.14=-TNTの爆発: この設定をオンにすると、TNTに着火できなくなります	#
-howtoplay.gameSettings.text.15=-インベントリの保持: この設定をオンにすると、プレイヤーが死んでもインベントリがリセットされることなく復活します	#
-
-howtoplay.inventory=インベントリ	#
-howtoplay.inventory.title=遊び方: インベントリ	#
-howtoplay.inventory.text.1.keyboard=:_input_key.inventory: でインベントリを確認できます	#
-howtoplay.inventory.text.1.gamepad=:_input_key.inventory: でインベントリを確認できます	#
-howtoplay.inventory.text.1.rift_controller=:rift_B: でインベントリを確認できます	#
-howtoplay.inventory.text.1.windowsmr_controller=:windowsmr_left_grab: でインベントリを確認できます	#
-howtoplay.inventory.text.1.touch=インベントリタブをタップするとインベントリを確認できます	#
-howtoplay.inventory.text.4.keyboard=インベントリのアイテムにポインターを合わせて :mouse_left_button: を押すと、そのアイテムを落とすことができます。ポインターを合わせたアイテムが複数の場合は、:mouse_left_button: を押すとすべて落とし、:mouse_right_button: を押すと 1 つだけ落とします	#
-howtoplay.inventory.text.4.gamepad=インベントリのアイテムにポインターを合わせて :_gamepad_face_button_down: を押すと、そのアイテムを落とすことができます。ポインターを合わせたアイテムが複数の場合は、:_gamepad_face_button_down: を押すとすべて落とし、:_gamepad_face_button_left: を押すと 1 つだけ落とします	#
-howtoplay.inventory.text.4.touch=アイテムを選択した状態で、インベントリの他のマスをタップすると、そのマスにアイテムを移すことができます	#
-howtoplay.inventory.text.6.keyboard=アイテムを落とすには、アイテムを選択して取り、インベントリウィンドウの外まで移動させてから放します	#
-howtoplay.inventory.text.6.touch=アイテムを落とすには、アイテムをタップして取り、インベントリウィンドウの外をタップします	#
-
-howtoplay.jukebox.text.1=見つけたレコードは、ジュークボックスで再生できます	#
-howtoplay.jukebox.text.2.notTouch=レコードを手に持って、ジュークボックスにポインターを合わせて :_input_key.use: を押すと、そのレコードを再生できます。レコードを取り出すには、もう一度ジュークボックスにポインターを合わせて :_input_key.use: を押します	#
-howtoplay.jukebox.text.2.touch=レコードを手に持って、ジュークボックスをタップすると、そのレコードを再生できます。レコードを取り出すには、もう一度ジュークボックスをタップします	#
-howtoplay.jukebox.text.3=レコードを再生しているジュークボックスは、レッドストーンの粉に動力を与えます	#
-howtoplay.jukebox.text.4=レコードが与える動力の強さは、曲によって異なります	#
-howtoplay.jukebox.text.5=レコードを最後まで再生するとどうなるか、自分の目で確かめてみてください 	#
-howtoplay.jukebox.text.6=ホッパーは、あなたの代わりにジュークボックスにレコードを入れてくれます。レコードの再生が終わると、自動的にレコードを取り出します	#
-howtoplay.jukebox.header.3=レコードを見つける	#
-howtoplay.jukebox.text.7=レコードのうち 2 種類は、世界に隠されたチェストの中から見つかることがあります	#
-howtoplay.jukebox.text.8=それ以外のレコードは、入手がかなり難しくなっています。実は、クリーパーは音楽鑑賞が趣味だとか...	#
-
-howtoplay.mounts.text.1=おとなのウマ、ロバ、ラバには乗ることができます。馬鎧は、ウマにのみ装着できます	#
-howtoplay.mounts.text.2=ラバとロバにチェストを取り付けると鞍袋になり、より多くのアイテムを運搬できます。サドル袋には、騎乗中またはスニークで触れることでアクセスできます	#
-howtoplay.mounts.text.3.notTouch=ウマ、ロバ、ラバに乗るためには、最初に手なずける必要があります。ウマを手なずけるには、手に何も持たずに :_input_key.use: を押して背中に乗ります。ウマはプレイヤーを振り落とそうとしますが、振り落とされてもあきらめずに乗り続けます	#
-howtoplay.mounts.text.3.touch=ウマ、ロバ、ラバに乗るためには、最初に手なずける必要があります。ウマを手なずけるには、手に何も持たずに「騎乗する」ボタンをタップして背中に乗ります。ウマはプレイヤーを振り落とそうとしますが、振り落とされてもあきらめずに乗り続けます	#
-howtoplay.mounts.text.4=ウマの周りにハートマークが浮かんだら、手なずけ完了です。手なずけたウマはプレイヤーを振り落とそうとしません	#
-howtoplay.mounts.header.2=動物に乗る	#
-howtoplay.mounts.text.5=ウマを操縦するには、ウマにサドルを装着する必要があります 	#
-howtoplay.mounts.text.6=サドルは村人との取引で入手できます。他にも、世界に隠されたチェストの中で見つかったり、釣りで釣れることがあります。サドルを装着するには、ウマに乗っているときに持ち物を開いて、ウマのサドルスロットにサドルを置きます 	#
-howtoplay.mounts.text.8=子ウマや子ロバは時間とともに成体になりますが、小麦や干し草を与えると成長が早まります	#
-howtoplay.mounts.text.10=ラマの手なずけ方はウマと同じですが、ラマはウマとは異なり、手なずけていてもプレイヤーが操縦することはできません 	#
-howtoplay.mounts.header.4=ブタ	#
-howtoplay.mounts.text.13=ブタにも乗ることができますが、プレイヤーが自由に動くには一工夫する必要があります 	#
-howtoplay.mounts.text.14=サドルをブタに装着してからブタに乗り、進みたいのをニンジン付きの棒で指示します	#
-howtoplay.navigation.text.3=コンパスは、初期スポーン地点ののを示すため、出発地点が簡単にわかります	#
-howtoplay.pets.text.1.notTouch=Minecraft には、手なずけてペットにできるモブがいます。そのようなモブを手なずけるには、好物のアイテムを与えます。好物のアイテムはモブによって異なります。手なずけたモブは、ポインターを合わせて :_input_key.use: を押すと、その場におすわりさせることができます	#
-howtoplay.pets.text.1.touch=Minecraft には、手なずけてペットにできるモブがいます。そのようなモブを手なずけるには、好物のアイテムを与えます。好物のアイテムはモブによって異なります。「お座り」ボタンをタップすると、手なずけたモブをその場におすわりさせることができます	#
-howtoplay.pets.text.2=オオカミは寒い気候で狩りをする、中立的なモブです。オオカミは、ウサギ、スケルトン、ヒツジを見ると攻撃しますが、ラマからは逃げます。怒らせないかぎり、オオカミがプレイヤーを襲うことはありません。オオカミを手なずけるには、オオカミに骨を与えます	#
-howtoplay.pets.text.3=ヤマネコはジャングルで狩りをする、中立的なモブです。クリーパーはヤマネコを見ると逃げます。また、ヤマネコはニワトリを見ると攻撃します。ヤマネコは魚が好物で、生魚や鮭を与えると手なずけることができます。ただし、ヤマネコはプレイヤーから逃げる習性があるので、手なずけるのには苦労するかもしれません	#
-
-howtoplay.ranching.text.1=Minecraft では、動物でいっぱいの、自分だけの牧場を作ることができます! 畜産をすることで、羊毛、タマゴ、生肉といった資源をたくさん確保できます。	#
-howtoplay.ranching.text.4=牛、ムーシュルーム、ヒツジは小麦を、ブタはニンジンまたはビートルートを、ニワトリは植物の種を、ウサギはニンジン、金のニンジン、タンポポを、ヤマネコは生魚または鮭を、オオカミはあらゆる肉を好みます	#
-
-howtoplay.shulkerBoxes.text.1=2 つのシュルカーの殻とチェストを組み合わせると、シュルカー ボックスができます。シュルカーの殻は、エンド シティに潜むシュルカーがドロップします。シュルカー ボックスは他の入れ物と異なり、中にアイテムをしまったまま壊れます。シュルカー ボックスは、ピストンで押すことで壊れてアイテム化し、ディスペンサーを使って配置することができます	#
-
-
-howtoplay.theEnd.text.4=ジ・エンドは、恐ろしいエンダー ドラゴンの住みかです。エンダー ドラゴンは、不思議なクリスタルから力を得ている、すさまじい強敵です。ドラゴンのブレス攻撃やエンダーチャージによる攻撃は、フィールド上の広い範囲に毒を残します。確実に倒すためにも、フレンドと共に挑むことをお勧めします!	#
-
-howtoplay.tools.text.9=バケツがあれば、水、牛乳、溶岩などの液体を集めることができます	#
-しょう!	#
-howtoplay.tools.text.12=ハサミは、羊毛、葉、クモの巣を集めたいときにとても役立つアイテムです	#
-
-
-howtoplay.weapons.text.3.notTouch=弓は Minecraft で最もオーソドックスな射撃武器です。:_input_key.use: を長押しすると弓を引き、:_input_key.use: を離すと矢を撃ちます。矢がインベントリにないと撃つことはできません 	#
-howtoplay.weapons.text.3.touch=弓は Minecraft で最もオーソドックスな射撃武器です。画面を長押しすると弓を引き、指を離すと矢を撃ちます。矢がインベントリにないと撃つことはできません	#
 
 
 ##旗
@@ -1260,6 +1135,8 @@ tile.red_flower.tulipRed.name=赤色のチューリップ	#
 tile.red_flower.tulipWhite.name=白色のチューリップ	#
 tile.red_flower.lilyOfTheValley.name=スズラン	#
 item.sweet_berries.name=スイートベリー	#
+tile.wither_rose.name=ウィザーローズ	#
+item.kelp.name=コンブ	#
 
 itemGroup.name.mushroom=キノコ	#
 tile.brown_mushroom.name=茶色のキノコ	#
@@ -1330,18 +1207,22 @@ item.chainmail_helmet.name=チェーンのヘルメット	#
 item.diamond_helmet.name=ダイヤモンドのヘルメット	#
 item.golden_helmet.name=金のヘルメット	#
 item.iron_helmet.name=鉄のヘルメット	#
+
 itemGroup.name.chestplate=チェストプレート	#
 item.chainmail_chestplate.name=チェーンのチェストプレート	#
 item.leather_chestplate.name=革の上着	#
 item.diamond_chestplate.name=ダイヤモンドのチェストプレート	#
 item.golden_chestplate.name=金のチェストプレート	#
 item.iron_chestplate.name=鉄のチェストプレート	#
+
 item.chainmail_leggings.name=チェーンのレギンス	#
 item.leather_leggings.name=革のズボン	#
 item.diamond_leggings.name=ダイヤモンドのレギンス	#
 item.golden_leggings.name=金のレギンス	#
 item.iron_leggings.name=鉄のレギンス	#
-item.saddle.name=サドル	#
+
+item.chainmail_boots.name=チェーンのブーツ	#
+item.saddle.name=鞍	#
 item.elytra.name=§eエリトラ§r	#
 item.totem.name=§e不死のトーテム§r	#
 
@@ -1372,6 +1253,8 @@ item.appleEnchanted.name=§dエンチャントされた金のリンゴ§r	#
 item.rotten_flesh.name=腐った肉	#
 tile.carved_pumpkin.name=くり抜かれたカボチャ	#
 item.poisonous_potato.name=青くなったジャガイモ	#
+item.suspicious_stew.name=怪しげなシチュー	#
+item.egg.name=卵	#
 
 
 ##道具
@@ -1390,13 +1273,18 @@ tile.loom.name=機織り機	#
 tile.stonecutter_block.name=石切台	#
 tile.campfire.name=焚き火	#
 item.painting.name=絵画	#
+item.fishing_rod.name=釣竿	#
+item.flint.name=火打石	#
+item.flint_and_steel.name=火打石と打ち金	#
 tile.tnt.name=TNT	#
 tile.torch.name=松明	#
 item.lead.name=リード	#
 item.tnt_minecart.name=TNTトロッコ	#
-item.feather.name=羽	#
+item.feather.name=羽根	#
 item.fireball.name=ファイヤーチャージ	#
 item.experience_bottle.name=§eエンチャントの瓶§r	#
+item.bowl.name=ボウル	#
+item.fireworks.flight=飛翔距離:	#
 
 item.emptyLocatorMap.name=白紙の地図	#
 map.toolTip.scaling=拡大 1:%s	#
@@ -1420,6 +1308,7 @@ tile.observer.name=オブザーバー	#
 tile.sticky_piston.name=粘着ピストン	#
 tile.heavy_weighted_pressure_plate.name=重量用感圧板	#
 tile.light_weighted_pressure_plate.name=軽量用感圧板	#
+tile.jigsaw.name=ジグソーブロック	#
 
 item.record.name=§bレコード§r	#
 item.record_blocks.desc=C418 - blocks	#
@@ -1437,8 +1326,8 @@ item.record_ward.desc=C418 - ward	#
 ##鉱石
 
 item.gold_nugget.name=金塊	#
-item.gold_ingot.name=金のインゴット	#
-item.iron_ingot.name=鉄のインゴット	#
+item.gold_ingot.name=金インゴット	#
+item.iron_ingot.name=鉄インゴット	#
 tile.coal_block.name=石炭ブロック	#
 tile.diamond_block.name=ダイヤモンドブロック	#
 tile.emerald_block.name=エメラルドブロック	#
@@ -1469,6 +1358,10 @@ tile.mossy_cobblestone.name=苔むした丸石	#
 tile.stonebrick.mossy.name=苔むした石レンガ	#
 tile.stonebrick.chiseled.name=模様入りの石レンガ	#
 tile.end_portal_frame.name=エンドポータルフレーム	#
+tile.honey_block.name=ハチミツブロック	#
+tile.honeycomb_block.name=ハニカムブロック	#
+tile.beehive.name=養蜂箱	#
+tile.bee_nest.name=ミツバチの巣	#
 
 
 ##虫食い
@@ -1575,6 +1468,8 @@ tile.seaLantern.name=シーランタン	#
 tile.sponge.wet.name=濡れたスポンジ	#
 tile.sea_pickle.name=シーピクルス	#
 tile.turtle_egg.name=カメの卵	#
+item.turtle_helmet.name=カメの甲羅	#
+item.turtle_shell_piece.name=カメのウロコ	#
 tile.coral_block.blue.name=クダサンゴブロック	#
 tile.coral_block.pink.name=ノウサンゴブロック	#
 tile.coral_block.purple.name=ミズタマサンゴブロック	#
@@ -1704,21 +1599,3 @@ packupgradewarning.manifest_upgraded=このパックは新しいバージョン�
 packupgradewarning.duplicate_uuid=指定された UUID '%s' は、既に存在します。'%s' をデフォルトにします。	#
 packupgradewarning.multiple_modules=パックの検証で、複数のモジュールの競合が検出されました。'%s' をデフォルトにします。	#
 content.import.failed.subtitle=詳細はここをクリックしてください	#
-
-
-##豆知識
-
-tips.game.3=難易度を「ピースフル」に設定すると、HP が自動的に回復し、夜間にモンスターが出現しなくなります!	#
-tips.game.7=ブタ、ウシ、ヒツジ、ウサギ、ニワトリから肉を手に入れましょう。そして、手に入れた肉を調理して食べ、体力を回復しましょう	#
-tips.game.8=ウシから手に入れた革を使って防具や本を作りましょう	#
-tips.game.9=空のバケツがあれば、ウシのミルクを搾ったり、水を汲んだり、溶岩を入れたりできます	#
-tips.game.18=ベッドで寝ることで、リスポーン地点がそのベッドに変わり、夜から朝へ時間を早回しすることができます	#
-tips.game.20=ネザーポータルを作れば、別の世界であるネザーに行くことができます	#
-tips.game.25=スケルトンの骨から作れる骨粉は、肥料として使って、色々なものを一瞬で成長させることができます!	#
-tips.game.30=光源に使用できるブロックは、雪や氷を溶かすことができます。松明、グロウストーン、ジャック・オ・ランタンなどがあります	#
-tips.game.31=雷が羊毛に当たると燃えてしまいます。屋外に羊毛で建物を建てるときは注意しましょう	#
-tips.game.34=ゾンビやスケルトンは、水につかっていたり、ヘルメットを装備している場合では、太陽の光に当たっても大丈夫です	#
-tips.game.41=チェスト 2 つを並べて配置すれば、1 つのラージチェストになります	#
-tips.game.43=染料は、色々な材料から作ることができます。たとえば、サボテンをかまどで焼くと、緑色の染料ができます	#
-tips.trivia.24=レアなクモの姿として、クモの上にスケルトンが乗っているスパイダー ジョッキーがいます!	#
-tips.trivia.25=ネザーで 1 ブロック移動すると、オーバーワールドで 8 ブロック移動したことになります	#
