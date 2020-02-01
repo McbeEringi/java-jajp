@@ -1,0 +1,79 @@
+{
+	"block.smithing_table.use": {
+		"category": "block",
+		"sounds": [
+			"sounds/block/smith/1",
+			"sounds/block/smith/2",
+			"sounds/block/smith/3"
+		]
+	},
+	"block.fletching_table.use": {
+		"category": "block",
+		"sounds": [
+			"sounds/block/fletch/1",
+			"sounds/block/fletch/2"
+		]
+	},
+	"cauldron.dyearmor": {
+		"category": "block",
+		"sounds": [
+			"sounds/block/cauldron/1",
+			"sounds/block/cauldron/2",
+			"sounds/block/cauldron/3"
+		]
+	},
+	"cauldron.cleanarmor": {
+		"category": "block",
+		"sounds": [
+			"sounds/block/cauldron/1",
+			"sounds/block/cauldron/2",
+			"sounds/block/cauldron/3"
+		]
+	},
+	"cauldron.cleanbanner": {
+		"category": "block",
+		"sounds": [
+			"sounds/block/cauldron/1",
+			"sounds/block/cauldron/2",
+			"sounds/block/cauldron/3"
+		]
+	},
+	"cauldron.fillpotion": {
+		"category": "block",
+		"sounds": [
+			"sounds/bucket/empty1",
+			"sounds/bucket/empty2",
+			"sounds/bucket/empty3"
+		]
+	},
+	"cauldron.takepotion": {
+		"category": "block",
+		"sounds": [
+			"sounds/bucket/fill1",
+			"sounds/bucket/fill2",
+			"sounds/bucket/fill3"
+		]
+	},
+	"cauldron.fillwater": {
+		"category": "block",
+		"sounds": [
+			"sounds/bucket/empty1",
+			"sounds/bucket/empty2",
+			"sounds/bucket/empty3"
+		]
+	},
+	"cauldron.takewater": {
+		"category": "block",
+		"sounds": [
+			"sounds/bucket/fill1",
+			"sounds/bucket/fill2",
+			"sounds/bucket/fill3"
+		]
+	},
+	"cauldron.adddye": {
+		"category": "block",
+		"sounds": [
+			{"name": "sounds/random/splash", "volume": 0.1}
+		]
+	}
+}

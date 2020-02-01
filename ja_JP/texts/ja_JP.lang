@@ -1272,7 +1272,7 @@ tile.bell.name=鐘	#
 item.bell.name=鐘	#
 tile.grindstone.name=砥石	#
 tile.barrel.name=樽	#
-tile.smithing_table.name=鍛治台	#
+tile.smithing_table.name=鍛冶台	#
 tile.fletching_table.name=製矢台	#
 tile.loom.name=機織り機	#
 tile.stonecutter_block.name=石切台	#
@@ -1347,6 +1347,7 @@ tile.redstone_block.name=レッドストーンブロック	#
 tile.smooth_stone.name=滑らかな石	#
 tile.glass_pane.name=板ガラス	#
 tile.snow_layer.name=雪	#
+tile.snow.name=雪ブロック	#
 tile.clay.name=粘土	#
 tile.hardened_clay.name=テラコッタ	#
 tile.brick_block.name=レンガ	#
@@ -1580,6 +1581,7 @@ effect.badOmen=不吉な予感	#
 
 ##リソパ
 
+resourcePack.subpackResolution=オプション: %s	#
 packdiscoveryerror.missing_manifest=パック内にmanufest.jsonが見つかりません。	#
 packdiscoveryerror.manifest_parse_error=manifest.jsonを解析できません: %s	#
 packdiscoveryerror.required_manifest_property_missing=manifest.jsonの '%s' エレメントが失われています。	#
