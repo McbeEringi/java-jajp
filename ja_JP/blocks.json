@@ -1,4 +1,4 @@
-{//@McbeEringi quartz tweak
+{//@McbeEringi quartz & honey_block tweak
 	"format_version": [1, 1, 0],
 	"quartz_block": {
 		"textures": {
@@ -18,5 +18,16 @@
 	"smooth_quartz_stairs": {
 		"textures": "stair_quartz_block_bottom",
 		"sound": "stone"
+	},
+	"honey_block": {
+		"textures": {
+			"up": "honey_top",
+			"down": "honey_bottom",
+			"north": "honey_side",
+			"south": "honey_side",
+			"west": "honey_side",
+			"east": "honey_side"
+		},
+		"sound": "honey"
 	}
 }
