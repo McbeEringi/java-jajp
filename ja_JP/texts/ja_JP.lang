@@ -1660,6 +1660,10 @@ tile.crimson_stem.name=真紅の幹	#
 tile.stripped_crimson_stem.name=表皮を剥いだ真紅の幹	#
 tile.crimson_trap_door.name=真紅のトラップドア	#
 tile.crimson_wall_sign.name=壁に付けられた真紅の看板	#
+item.crimson_door.name=真紅のドア	#
+item.crimson_sign.name=真紅の看板	#
+tile.weeping_vines_block.name=枝垂れツタ	#
+death.fell.accident.weeping_vines=%1$s は枝垂れツタから滑り落ちた	#
 
 tile.warped_button.name=歪んだボタン	#
 tile.warped_door.name=歪んだドア	#
@@ -1681,7 +1685,10 @@ tile.stripped_warped_stem.name=表皮を剥いだ歪んだ幹	#
 tile.warped_trap_door.name=歪んだトラップドア	#
 tile.warped_wall_sign.name=壁に付けられた歪んだ看板	#
 tile.blue_nether_wart_block.name=歪んだウォートブロック	#
-
+item.warped_door.name=歪んだドア	#
+item.warped_sign.name=歪んだ看板	#
+tile.twisting_vines_block.name=ねじれツタ	#
+death.fell.accident.twisting_vines=%1$s はねじれツタから滑り落ちた	#
 
 tile.blackstone.name=黒石	#
 tile.blackstone_slab.name=黒石のハーフブロック	#
@@ -1705,11 +1712,16 @@ tile.cracked_nether_bricks.name=ひび割れたネザーレンガ	#
 tile.quartz_bricks.name=クォーツレンガ	#
 tile.basalt_block.name=玄武岩	#
 tile.polished_basalt_block.name=磨かれた玄武岩	#
+tile.nether_gold_ore.name=ネザー金鉱石	#
 tile.jigsaw.name=ジグソーブロック	#
+tile.chain.name=チェーン	#
+tile.respawn_anchor.name=リスポーンアンカー	#
+tile.respawn_anchor.respawnSet=リスポーン位置の設定	#
 tile.crying_obsidian.name=泣く黒曜石	#
 tile.target_block.name=的	#
 tile.lodestone_block.name=誘導石	#
 item.lodestonecompass.name=誘導石へのコンパス	#
+item.warped_fungus_on_a_stick.name=歪んだキノコ付きの棒	#
 
 item.banner.piglin.black=黒色の豚鼻模様	#
 item.banner.piglin.blue=青色の豚鼻模様	#
