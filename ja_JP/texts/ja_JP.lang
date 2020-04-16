@@ -43,6 +43,7 @@ feature.endcity=エンドシティ	#
 feature.fortress=ネザー要塞	#
 feature.mansion=森の館	#
 feature.monument=海底神殿	#
+feature.pillageroutpost=略奪者の前哨基地	#
 
 generator.flat=スーパーフラット	#
 generator.nether=ネザー	#
@@ -1606,3 +1607,134 @@ packupgradewarning.manifest_upgraded=このパックは新しいバージョン�
 packupgradewarning.duplicate_uuid=指定された UUID '%s' は、既に存在します。'%s' をデフォルトにします。	#
 packupgradewarning.multiple_modules=パックの検証で、複数のモジュールの競合が検出されました。'%s' をデフォルトにします。	#
 content.import.failed.subtitle=詳細はここをクリックしてください	#
+
+
+#=*=*=#
+#=*=*=#
+
+##1.16
+
+container.smithing_table=鍛冶台	#
+container.smithing_table_block=鍛冶台	#
+container.smithing_table.upgrade=アップグレード	#
+feature.bastionremnant=砦の残骸	#
+feature.ruinedportal=壊れたポータル	#
+
+tile.ancient_debris.name=古代の残骸	#
+item.netherite_ingot.name=ネザライトインゴット	#
+item.netherite_scrap.name=ネザライトの欠片	#
+tile.netherite_block.name=ネザライトブロック	#
+item.netherite_sword.name=ネザライトの剣	#
+item.netherite_pickaxe.name=ネザライトのツルハシ	#
+item.netherite_axe.name=ネザライトの斧	#
+item.netherite_shovel.name=ネザライトのシャベル	#
+item.netherite_hoe.name=ネザライトのクワ	#
+item.netherite_helmet.name=ネザライトのヘルメット	#
+item.netherite_chestplate.name=ネザライトのチェストプレート	#
+item.netherite_leggings.name=ネザライトのレギンス	#
+item.netherite_boots.name=ネザライトのブーツ	#
+
+itemGroup.name.netherWartBlock=ネザーウォート	#
+tile.nether_sprouts.name=ネザーの新芽	#
+tile.shroomlight_block.name=シュルームライト	#
+tile.soul_soil_block.name=ソウルソイル	#
+tile.blue_fire.name=魂の炎	#
+tile.soul_campfire.name=魂の焚き火	#
+
+tile.crimson_button.name=真紅のボタン	#
+tile.crimson_door.name=真紅のドア	#
+tile.crimson_fence.name=真紅のフェンス	#
+tile.crimson_fence_gate.name=真紅のフェンスゲート	#
+tile.crimson_fungus.name=真紅のキノコ	#
+tile.crimson_hyphae.name=真紅の菌皮	#
+tile.stripped_crimson_hyphae.name=表皮を剥いだ真紅の菌皮	#
+tile.crimson_nylium.name=真紅のナイリウム	#
+tile.crimson_planks.name=真紅の木材	#
+tile.crimson_pressure_plate.name=真紅の感圧板	#
+tile.crimson_roots.crimsonRoots.name=真紅の根	#
+tile.crimson_standing_sign.name=真紅の看板	#
+tile.crimson_slab.name=真紅のハーフブロック	#
+tile.crimson_double_slab.name=真紅のハーフブロック	#
+tile.crimson_stairs.name=真紅の階段	#
+tile.crimson_stem.name=真紅の幹	#
+tile.stripped_crimson_stem.name=表皮を剥いだ真紅の幹	#
+tile.crimson_trap_door.name=真紅のトラップドア	#
+tile.crimson_wall_sign.name=壁に付けられた真紅の看板	#
+
+tile.warped_button.name=歪んだボタン	#
+tile.warped_door.name=歪んだドア	#
+tile.warped_fence.name=歪んだフェンス	#
+tile.warped_fence_gate.name=歪んだフェンスゲート	#
+tile.warped_fungus.name=歪んだキノコ	#
+tile.warped_hyphae.name=歪んだ菌皮	#
+tile.stripped_warped_hyphae.name=表皮を剥いだ歪んだ菌皮	#
+tile.warped_nylium.name=歪んだナイリウム	#
+tile.warped_planks.name=歪んだ木材	#
+tile.warped_pressure_plate.name=歪んだ感圧板	#
+tile.warped_roots.warpedRoots.name=歪んだ根	#
+tile.warped_standing_sign.name=歪んだ看板	#
+tile.warped_slab.name=歪んだハーフブロック	#
+tile.warped_double_slab.name=歪んだハーフブロック	#
+tile.warped_stairs.name=歪んだ階段	#
+tile.warped_stem.name=歪んだ幹	#
+tile.stripped_warped_stem.name=表皮を剥いだ歪んだ幹	#
+tile.warped_trap_door.name=歪んだトラップドア	#
+tile.warped_wall_sign.name=壁に付けられた歪んだ看板	#
+tile.blue_nether_wart_block.name=歪んだウォートブロック	#
+
+
+tile.blackstone.name=黒石	#
+tile.blackstone_slab.name=黒石のハーフブロック	#
+tile.blackstone_stairs.name=黒石の階段	#
+tile.blackstone_wall.normal.name=黒石の塀	#
+tile.chiseled_polished_blackstone.name=模様入りの磨かれた黒石	#
+tile.cracked_polished_blackstone_bricks.name=ひび割れた黒石レンガ	#
+tile.gilded_blackstone.name=きらめく黒石	#
+tile.polished_blackstone.name=磨かれた黒石	#
+tile.polished_blackstone_brick_slab.name=磨かれた黒石レンガのハーフブロック	#
+tile.polished_blackstone_brick_stairs.name=磨かれた黒石レンガの階段	#
+tile.polished_blackstone_brick_wall.normal.name=磨かれた黒石レンガの塀	#
+tile.polished_blackstone_bricks.name=磨かれた黒石レンガ	#
+tile.polished_blackstone_button.name=磨かれた黒石のボタン	#
+tile.polished_blackstone_pressure_plate.name=磨かれた黒石の感圧板	#
+tile.polished_blackstone_slab.name=磨かれた黒石のハーフブロック	#
+tile.polished_blackstone_stairs.name=磨かれた黒石の階段	#
+tile.polished_blackstone_wall.normal.name=磨かれた黒石の塀	#
+tile.chiseled_nether_bricks.name=模様入りのネザーレンガ	#
+tile.cracked_nether_bricks.name=ひび割れたネザーレンガ	#
+tile.quartz_bricks.name=クォーツレンガ	#
+tile.basalt_block.name=玄武岩	#
+tile.polished_basalt_block.name=磨かれた玄武岩	#
+tile.jigsaw.name=ジグソーブロック	#
+tile.crying_obsidian.name=泣く黒曜石	#
+tile.target_block.name=的	#
+tile.lodestone_block.name=誘導石	#
+item.lodestonecompass.name=誘導石へのコンパス	#
+
+item.banner.piglin.black=黒色の豚鼻模様	#
+item.banner.piglin.blue=青色の豚鼻模様	#
+item.banner.piglin.brown=茶色の豚鼻模様	#
+item.banner.piglin.cyan=青緑色の豚鼻模様	#
+item.banner.piglin.gray=灰色の豚鼻模様	#
+item.banner.piglin.green=緑色の豚鼻模様	#
+item.banner.piglin.lightBlue=空色の豚鼻模様	#
+item.banner.piglin.lime=黄緑色の豚鼻模様	#
+item.banner.piglin.magenta=赤紫色の豚鼻模様	#
+item.banner.piglin.orange=橙色の豚鼻模様	#
+item.banner.piglin.pink=桃色の豚鼻模様	#
+item.banner.piglin.purple=紫色の豚鼻模様	#
+item.banner.piglin.red=赤色の豚鼻模様	#
+item.banner.piglin.silver=薄灰色の豚鼻模様	#
+item.banner.piglin.white=白色の豚鼻模様	#
+item.banner.piglin.yellow=黄色の豚鼻模様	#
+
+entity.strider.name=ストライダー	#
+entity.hoglin.name=ホグリン	#
+entity.zoglin.name=ゾグリン	#
+entity.piglin.name=ピグリン	#
+entity.zombie_pigman.name=ゾンビピグリン	#
+item.spawn_egg.entity.strider.name=ストライダーのスポーンエッグ	#
+item.spawn_egg.entity.hoglin.name=ホグリンのスポーンエッグ	#
+item.spawn_egg.entity.zoglin.name=ゾグリンのスポーンエッグ	#
+item.spawn_egg.entity.piglin.name=ピグリンのスポーンエッグ	#
+item.spawn_egg.entity.zombie_pigman.name=ゾンビピグリンのスポーンエッグ	#

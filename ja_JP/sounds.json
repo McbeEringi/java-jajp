@@ -4,35 +4,5 @@
 			"block.smithing_table.use": {"sound": "block.smithing_table.use", "volume": 1.0},
 			"block.fletching_table.use": {"sound": "block.fletching_table.use", "volume": 1.0}
 		}
-	},
-	"block_sounds": {
-		"honey": {
-			"volume": 1.0,
-			"pitch": 1.0,
-			"events": {
-				"default": "",
-				"item.use.on": {"sound": "use.slime", "pitch": 0.8},
-				"break": {"sound": "block.honeyblock.break", "volume": 1.0},
-				"hit": {"sound": "hit.slime", "volume": 0.25, "pitch": 0.5},
-				"place": {"sound": "block.honeyblock.break", "volume": 1.0},
-				"power.on": {"sound": "random.click", "pitch": 0.6},
-				"power.off": {"sound": "random.click", "pitch": 0.5}
-			}
-		}
-	},
-	"interactive_sounds": {
-		"block_sounds": {
-			"honey": {
-				"volume": 1.0,
-				"pitch": 1.0,
-				"events": {
-					"default": "",
-					"fall": {"sounds": "fall.slime", "volume": 1.0},
-					"step": {"sound": "block.honeyblock.step", "volume": 1.0},
-					"jump": {"sound": "jump.slime", "volume": 0.25},
-					"land": {"sound": "land.slime", "volume": 0.5}
-				}
-			}
-		}
 	}
 }

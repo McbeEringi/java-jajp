@@ -75,25 +75,5 @@
 		"sounds": [
 			{"name": "sounds/random/splash", "volume": 0.1}
 		]
-	},
-	"block.honeyblock.break": {
-		"category": "block",
-		"sounds": [
-			"sounds/block/honeyblock/break1",
-			"sounds/block/honeyblock/break2",
-			"sounds/block/honeyblock/break3",
-			"sounds/block/honeyblock/break4",
-			"sounds/block/honeyblock/break5"
-		]
-	},
-	"block.honeyblock.step": {
-		"category": "block",
-		"sounds": [
-			"sounds/block/honeyblock/step1",
-			"sounds/block/honeyblock/step2",
-			"sounds/block/honeyblock/step3",
-			"sounds/block/honeyblock/step4",
-			"sounds/block/honeyblock/step5"
-		]
 	}
 }
