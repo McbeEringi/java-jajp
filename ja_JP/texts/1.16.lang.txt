@@ -24,6 +24,7 @@ tile.shroomlight_block.name=シュルームライト	#
 tile.soul_soil_block.name=ソウルソイル	#
 tile.blue_fire.name=魂の炎	#
 tile.soul_campfire.name=魂の焚き火	#
+enchantment.soul_speed=ソウルスピード	#
 
 tile.crimson_button.name=真紅のボタン	#
 tile.crimson_door.name=真紅のドア	#
@@ -107,6 +108,7 @@ tile.lodestone_block.name=誘導石	#
 item.lodestonecompass.name=誘導石へのコンパス	#
 item.warped_fungus_on_a_stick.name=歪んだキノコ付きの棒	#
 
+item.banner_pattern.piglin=豚鼻模様	#
 item.banner.piglin.black=黒色の豚鼻模様	#
 item.banner.piglin.blue=青色の豚鼻模様	#
 item.banner.piglin.brown=茶色の豚鼻模様	#
