@@ -92,6 +92,19 @@ trade.level.5=達人	#
 trade.doesNotWant=(*´Д`*)ﾊﾌｰﾝ	#
 trade.notEnough=%sもうちょっと欲しいな( 'ω')	#
 
+structure_block.mode.save=セーブ	#
+structure_block.structure_name=ストラクチャーの名前	#
+3d_export.remove_blocks=ブロックを含めない:	#
+3d_export.remove=含めない	#
+structure_block.show_bounding_box=ストラクチャーの枠線:	#
+structure_block.mirror=反転(基準となる軸):	#
+structure_block.rotation=回転(時計回り)	#
+structure_block.save.successful=ストラクチャーを保存しました!	#
+structure_block.extensionDescription=ストラクチャーファイル	#
+structure_block.exportFileTitle=ストラクチャーをエクスポート	#
+structure_block.exportFailedDescription=ストラクチャーのエクスポートに失敗しました。	#
+structure_block.exportProgressTitle=ストラクチャーをエクスポート	#
+
 
 ##死亡メッセージ
 
