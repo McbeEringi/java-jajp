@@ -1632,6 +1632,7 @@ container.smithing_table_block=鍛冶台	#
 container.smithing_table.upgrade=装備の強化	#
 feature.bastionremnant=砦の残骸	#
 feature.ruinedportal=壊れたポータル	#
+key.emote=エモート	#
 
 tile.ancient_debris.name=古代の残骸	#
 item.netherite_ingot.name=ネザライトインゴット	#
@@ -1736,7 +1737,7 @@ tile.respawn_anchor.respawnSet=リスポーン地点が設定されました	#
 tile.respawn_anchor.notValid=ベッドもしくはチャージされたリスポーンアンカーが存在しないか、あるいは塞がれています。	#
 tile.crying_obsidian.name=泣く黒曜石	#
 tile.target_block.name=的	#
-tile.lodestone_block.name=ロードストーン	#
+tile.lodestone.name=ロードストーン	#
 item.lodestonecompass.name=誘導石のコンパス	#
 item.warped_fungus_on_a_stick.name=歪んだキノコ付きの棒	#
 
