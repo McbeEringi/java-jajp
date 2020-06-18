@@ -12,7 +12,7 @@
 			"uuid": "39a9534d-0419-4c7a-8dec-be448f037757",
 			"version": [0, 16, 0]
 		}
-	],
+	/*],
 	"subpacks": [
 		{
 			"folder_name": "null",
@@ -23,6 +23,6 @@
 			"folder_name": "old",
 			"name": "old_tex",
 			"memory_tier": 2
-		}
+		}*/
 	]
 }
