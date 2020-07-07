@@ -72,6 +72,9 @@ tile.beacon.secondary.pocket=副効果	#
 tile.bed.noSleep=夜もしくは雷雨のときのみ寝ることができます	#
 tile.bed.notSafe=モンスターが近くにいるため眠れません	#
 tile.bed.notValid=ベッドが存在しないか、あるいは塞がれています	#
+tile.bed.respawnSet=リスポーン地点が設定されました	#
+tile.bed.tooFar=ベッドから離れすぎているため眠れません	#
+tile.bed.obstructed=このベッドは塞がれています	#
 
 options.enableOpenChatMessage=チャットを開くメッセージを有効化	#
 key.chat=またはTキー	#
@@ -922,7 +925,7 @@ tile.stained_glass.pink.name=桃色の色つきガラス	#
 
 tile.stained_glass_pane.white.name=白色の色つきガラス板	#
 tile.stained_glass_pane.silver.name=薄灰色の色つきガラス板	#
-tile.stained_glass_pane.gray.name=灰色の色つきガラス板#
+tile.stained_glass_pane.gray.name=灰色の色つきガラス板	#
 tile.stained_glass_pane.black.name=黒色の色つきガラス板	#
 tile.stained_glass_pane.brown.name=茶色の色つきガラス板	#
 tile.stained_glass_pane.red.name=赤色の色つきガラス板	#
