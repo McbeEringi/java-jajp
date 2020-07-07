@@ -2,15 +2,15 @@
 	"format_version": 1,
 	"header": {
 		"description": "java版翻訳pack! by @McbeEringi",
-		"name": "java ja_JP v16.0",
+		"name": "java ja_JP v16.1",
 		"uuid": "e42b9eac-7ea1-dc32-93b7-c6aeb5c6f63d",
-		"version": [0, 16, 0]
+		"version": [0, 16, 1]
 	},
 	"modules": [
 		{
 			"type": "resources",
 			"uuid": "39a9534d-0419-4c7a-8dec-be448f037757",
-			"version": [0, 16, 0]
+			"version": [0, 16, 1]
 		}
 	/*],
 	"subpacks": [
