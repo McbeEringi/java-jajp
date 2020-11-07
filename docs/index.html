@@ -13,13 +13,8 @@
 	<meta property="og:url" content="https://mcbeeringi.github.io/java-jajp">
 	<meta property="og:image" content="https://mcbeeringi.github.io/img/ja_JP.png">
 	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-	<script src="https://mcbeeringi.github.io/src/style.js" defer></script>
-	<style>
-		.swiper-container{width:90%;height:auto;}
-		.swiper-container img{width:100%;}
-		.flex{display:flex;justify-content:space-between;flex-wrap:wrap;align-items:flex-start;}
-		.pad2>*{width:49%;min-width:320px;}
-	</style>
+	<script src="https://mcbeeringi.github.io/src/style.js" async></script>
+	<script src="https://mcbeeringi.github.io/src/solo_style.js" defer></script>
 </head>
 
 <body>
@@ -27,30 +22,18 @@
 	<div class="col1">
 		<div class="swiper-container">
 			<div class="swiper-wrapper">
-				<div class="swiper-slide">
-					<img src="java ja_jp.png"></img>
-				</div>
-				<div class="swiper-slide">
-					<img src="1.jpg"></img>
-				</div>
-				<div class="swiper-slide">
-					<img src="2.jpg"></img>
-				</div>
-				<div class="swiper-slide">
-					<img src="3.jpg"></img>
-				</div>
-				<div class="swiper-slide">
-					<img src="4.jpg"></img>
-				</div>
+				<div class="swiper-slide"><img src="java ja_jp.png"></div>
+				<div class="swiper-slide"><img src="1.jpg"></div>
+				<div class="swiper-slide"><img src="2.jpg"></div>
+				<div class="swiper-slide"><img src="3.jpg"></div>
+				<div class="swiper-slide"><img src="4.jpg"></div>
 			</div>
-			<!-- Add Pagination -->
 			<div class="swiper-pagination"></div>
-			<!-- Add Arrows -->
 			<div class="swiper-button-next"></div>
 			<div class="swiper-button-prev"></div>
 		</div>
 	</div>
-	<div class="col2 flex pad2">
+	<div class="col2 box">
 		<h2>java ja_JPとは？<br></h2>
 		<p>
 			java版の翻訳<br>
@@ -59,7 +42,7 @@
 			​All in Oneなリソースパックです
 		</p>
 	</div>
-	<div class="col1 flex pad2">
+	<div class="col1 box">
 		<div>
 			<h2>java ja_JP 16.1</h2>
 			<h3>Features<br></h3>
@@ -78,7 +61,7 @@
 			</ul>
 		</div>
 	</div>
-	<div class="col2 flex pad2">
+	<div class="col2 box">
 		<div>
 			<h2>java ja_JP 16.1</h2>
 			<h3>Changes</h3>
@@ -90,43 +73,15 @@
 			</ul>
 		</div>
 	</div>
-	<div class="col1 flex pad2">
+	<div class="col1 box">
 		<p style="text-align:center">
 			個人利用に限り改変を認めます<br>
 			改変の有無に拘わらず二次配布は禁止です<br>
 		</p>
 		<div align=center>
-			<button onClick="window.open('https://github.com/McbeEringi/java-jajp/releases/download/v16.1/ja_JP_16.1.mcpack','_blank')">java ja_JP 16.1 Download</button>
+			<a class="button" href="https://github.com/McbeEringi/java-jajp/releases/download/v16.1/ja_JP_16.1.mcpack" target="_blank">java ja_JP 16.1 Download</a>
 		</div>
 	</div>
-	<!-- Swiper JS -->
-	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-	<script>
-	var swiper = new Swiper('.swiper-container', {
-		slidesPerView: 1,
-		spaceBetween: 0,
-		loop: true,
-		centeredSlides: true,
-		breakpoints: {
-			480: {
-				slidesPerView: 2,
-				spaceBetween: 30
-			}
-		},
-		autoplay: {
-			delay: 2700,
-			disableOnInteraction: false,
-		},
-		pagination: {
-			el: '.swiper-pagination',
-			clickable: true,
-		},
-		navigation: {
-			nextEl: '.swiper-button-next',
-			prevEl: '.swiper-button-prev',
-		}
-	});
-	</script>
 </body>
 
 </html>
