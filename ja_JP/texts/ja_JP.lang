@@ -1,3 +1,30 @@
+#####
+##gui
+##死亡メッセージ
+##エンチャント
+##エンティティ
+##旗
+##16
+##木材
+##植物
+##バケツ&魚
+##防具
+##食料
+##道具
+##RS&レコード
+##功績
+##地上
+##階段
+##ハーフ
+##塀
+##海
+##ネザー
+##エンド
+##ポーション
+##リソぱ
+
+
+
 ##gui
 
 craftingScreen.tab.search=検索	#
@@ -1313,8 +1340,17 @@ map.toolTip.scaling=拡大 1:%s	#
 map.toolTip.level=縮尺 %s/%s	#
 map.lock=地図をロック	#
 
+itemGroup.name.hoe=クワ	#
+item.diamond_hoe.name=ダイヤモンドのクワ	#
+item.golden_hoe.name=金のクワ	#
+item.iron_hoe.name=鉄のクワ	#
+item.stone_hoe.name=石のクワ	#
+item.wooden_hoe.name=木のクワ	#
+itemGroup.name.pickaxe=ツルハシ	#
 
-##レッドストーン&レコード
+
+
+##RS&レコード
 
 tile.repeating_command_block.name=リピートコマンドブロック	#
 tile.chain_command_block.name=チェーンコマンドブロック	#
@@ -1358,6 +1394,14 @@ tile.iron_block.name=鉄ブロック	#
 tile.lapis_block.name=ラピスラズリブロック	#
 tile.redstone_block.name=レッドストーンブロック	#
 
+tile.monster_egg.brick.name=虫食い石レンガ	#
+tile.monster_egg.chiseledbrick.name=模様入りの虫食い石レンガ	#
+tile.monster_egg.cobble.name=虫食い丸石	#
+tile.monster_egg.crackedbrick.name=ひび割れた虫食い石レンガ	#
+tile.monster_egg.mossybrick.name=苔むした虫食い石レンガ	#
+tile.monster_egg.name=虫食い石	#
+tile.monster_egg.stone.name=虫食い石	#
+
 
 ##地上
 
@@ -1385,17 +1429,6 @@ tile.honey_block.name=ハチミツブロック	#
 tile.honeycomb_block.name=ハニカムブロック	#
 tile.beehive.name=養蜂箱	#
 tile.bee_nest.name=ミツバチの巣	#
-
-
-##虫食い
-
-tile.monster_egg.brick.name=虫食い石レンガ	#
-tile.monster_egg.chiseledbrick.name=模様入りの虫食い石レンガ	#
-tile.monster_egg.cobble.name=虫食い丸石	#
-tile.monster_egg.crackedbrick.name=ひび割れた虫食い石レンガ	#
-tile.monster_egg.mossybrick.name=苔むした虫食い石レンガ	#
-tile.monster_egg.name=虫食い石	#
-tile.monster_egg.stone.name=虫食い石	#
 
 
 ##階段
@@ -1534,6 +1567,7 @@ tile.quartz_block.lines.name=クォーツの柱	#
 tile.quartz_block.name=クォーツブロック	#
 tile.quartz_block.smooth.name=滑らかなクォーツ	#
 tile.nether_wart_block.name=ネザーウォートブロック	#
+tile.soul_sand.name=ソウルサンド	#
 
 
 ##エンド
@@ -1657,9 +1691,9 @@ tile.shroomlight.name=シュルームライト	#
 tile.soul_soil.name=ソウルソイル	#
 tile.blue_fire.name=魂の炎	#
 tile.soul_campfire.name=魂の焚き火	#
-tile.soul_torch.name=ソウルトーチ	#
+tile.soul_torch.name=魂の松明	#
 enchantment.soul_speed=ソウルスピード	#
-tile.soul_lantern.name=ソウルランタン	#
+tile.soul_lantern.name=魂のランタン	#
 item.record_pigstep.desc=Lena Raine - Pigstep	#
 
 tile.crimson_button.name=真紅のボタン	#
@@ -1708,7 +1742,7 @@ tile.warped_wall_sign.name=壁に付けられた歪んだ看板	#
 tile.warped_wart_block.name=歪んだウォートブロック	#
 item.warped_door.name=歪んだドア	#
 item.warped_sign.name=歪んだ看板	#
-tile.twisting_vines_block.name=ねじれツタ	#
+tile.twisting_vines.name=ねじれツタ	#
 death.fell.accident.twisting_vines=%1$s はねじれツタから滑り落ちた	#
 
 #tile.blackstone.name=ブラックストーン	#

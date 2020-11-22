@@ -25,9 +25,9 @@ tile.shroomlight.name=シュルームライト	#
 tile.soul_soil.name=ソウルソイル	#
 tile.blue_fire.name=魂の炎	#
 tile.soul_campfire.name=魂の焚き火	#
-tile.soul_torch.name=ソウルトーチ	#
+tile.soul_torch.name=魂の松明	#
 enchantment.soul_speed=ソウルスピード	#
-tile.soul_lantern.name=ソウルランタン	#
+tile.soul_lantern.name=魂のランタン	#
 item.record_pigstep.desc=Lena Raine - Pigstep	#
 
 tile.crimson_button.name=真紅のボタン	#
@@ -76,7 +76,7 @@ tile.warped_wall_sign.name=壁に付けられた歪んだ看板	#
 tile.warped_wart_block.name=歪んだウォートブロック	#
 item.warped_door.name=歪んだドア	#
 item.warped_sign.name=歪んだ看板	#
-tile.twisting_vines_block.name=ねじれツタ	#
+tile.twisting_vines.name=ねじれツタ	#
 death.fell.accident.twisting_vines=%1$s はねじれツタから滑り落ちた	#
 
 #tile.blackstone.name=ブラックストーン	#
