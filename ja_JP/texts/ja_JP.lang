@@ -1405,6 +1405,7 @@ tile.monster_egg.stone.name=虫食い石	#
 
 ##地上
 
+tile.grass_path.name=草の道	#
 tile.smooth_stone.name=滑らかな石	#
 tile.glass_pane.name=板ガラス	#
 tile.snow_layer.name=雪	#
@@ -1556,7 +1557,9 @@ tile.dried_kelp_block.name=乾燥した昆布ブロック	#
 item.netherbrick.name=ネザーレンガ	#
 item.netherStar.name=§eネザースター§r	#
 item.quartz.name=ネザークォーツ	#
+item.nether_wart.name=ネザーウォート	#
 tile.netherrack.name=ネザーラック	#
+tile.nether_wart.name=ネザーウォート	#
 tile.nether_brick.name=ネザーレンガ	#
 tile.red_nether_brick.name=赤いネザーレンガ	#
 tile.nether_brick_fence.name=ネザーレンガのフェンス	#
