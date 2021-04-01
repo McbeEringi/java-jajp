@@ -121,6 +121,7 @@ trade.level.4=熟練者	#
 trade.level.5=達人	#
 trade.doesNotWant=(*´Д`*)ﾊﾌｰﾝ	#
 trade.notEnough=%sもうちょっと欲しいな( 'ω')	#
+trade.mysteriousText=???	#
 
 structure_block.mode.save=セーブ	#
 structure_block.structure_name=ストラクチャーの名前	#
@@ -134,6 +135,8 @@ structure_block.extensionDescription=ストラクチャーファイル	#
 structure_block.exportFileTitle=ストラクチャーをエクスポート	#
 structure_block.exportFailedDescription=ストラクチャーのエクスポートに失敗しました。	#
 structure_block.exportProgressTitle=ストラクチャーをエクスポート	#
+
+howtoplay.creativeMode.title=遊び方: クリエイティブモード	#
 
 
 ##死亡メッセージ

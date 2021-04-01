@@ -148,6 +148,12 @@
 		"blend_frames":false
 	},
 	{
+		"flipbook_texture":"textures/blocks/soul_lantern",
+		"atlas_tile":"soul_lantern",
+		"ticks_per_frame":8,
+		"blend_frames":false
+	},
+	{
 		"flipbook_texture":"textures/blocks/stonecutter2_saw",
 		"atlas_tile":"stonecutter2_saw",
 		"blend_frames":false

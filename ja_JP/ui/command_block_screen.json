@@ -16,7 +16,7 @@
 		"$pressed_button_name": "button.chat_autocomplete_back"
 	},
 
- "right_scroll_panel_content": {
+	"right_scroll_panel_content": {
 		"type": "stack_panel",
 		"orientation": "vertical",
 		"controls": [
