@@ -1,11 +1,9 @@
 {
 	"namespace":"hud",
 	"hidden_button@common_buttons.light_content_button":{
-		"size":[16,16],
-		"ignored":"(not$touch)",
+		"size":[16,16],"ignored":"(not$touch)",
 		"$default_state_border_visible":false,
-		"$default_button_alpha":0,
-		"$default_hover_alpha":0.5
+		"$default_button_alpha":0,"$default_hover_alpha":0.5
 	},
 	"gui_button@hud.hidden_button":{
 		"anchor_from":"bottom_right","anchor_to":"bottom_right",
@@ -16,6 +14,7 @@
 		"$pressed_button_name":"button.hide_paperdoll_hud",
 		"bindings":[{"binding_name":"#hud_visible","binding_name_override":"#visible","binding_type":"global"}]
 	},
+	"item":{"type": "custom","renderer": "inventory_item_renderer","size":[16,16]},
 	"hud_content":{
 		"type":"panel","$hud_size":["100%","100%"],"$hud_player_rend_desktop_offset|default":[15,15],
 		"variables":[
@@ -26,6 +25,15 @@
 		"controls":[
 			{"gui_button@hud.gui_button":{}},
 			{"doll_button@hud.doll_button":{}},
+			{"item":{
+				"type":"stack_panel","anchor_from":"top_right","anchor_to":"top_right","orientation":"horizontal","size":[32,16],
+				"controls":[
+					//https://lukaspah.github.io/item_aux_calculator/item_id_aux.html
+					{"compass@hud.item":{"property_bag":{"#item_id_aux":22609920}}},
+					{"clock@hud.item":{"property_bag":{"#item_id_aux":22740992}}}
+				],
+				"bindings":[{"binding_name":"#hud_visible","binding_name_override":"#visible","binding_type":"global"}]
+			}},
 			{"root_panel@hud.root_panel":{}},
 			{"camera_renderer@camera_renderer":{}}
 		]
