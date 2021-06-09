@@ -2,14 +2,14 @@
 	"format_version":2,
 	"header":{
 		"description":"java版翻訳パック\n@McbeEringi",
-		"name":"java ja_JP v16.3",
+		"name":"java ja_JP v17.0",
 		"uuid":"e42b9eac-7ea1-dc32-93b7-c6aeb5c6f63d",
-		"version":[0,16,3],
-		"min_engine_version":[1,16,100]
+		"version":[0,17,0],
+		"min_engine_version":[1,17,0]
 	},
-	"modules": [{
+	"modules":[{
 		"type":"resources",
 		"uuid":"39a9534d-0419-4c7a-8dec-be448f037757",
-		"version":[0,16,3]
+		"version":[0,17,0]
 	}]
 }
