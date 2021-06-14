@@ -117,6 +117,7 @@ tile.calcite.name=方解石	#
 tile.smooth_basalt.name=滑らかな玄武岩	#
 tile.tinted_glass.name=遮光ガラス	#
 item.spyglass.name=望遠鏡	#
+options.spyglassdampen=感度の補正(望遠鏡)	#
 
 entity.goat.name=ヤギ	#
 item.spawn_egg.entity.goat.name=ヤギのスポーンエッグ	#
