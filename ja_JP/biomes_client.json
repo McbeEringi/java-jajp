@@ -26,7 +26,7 @@
 		"taiga_mutated":{"water_surface_color":"#3F76E4","water_fog_color":"#050533"},
 		"river":{"water_surface_color":"#3F76E4","water_fog_color":"#050533","water_fog_distance":48},
 		//"hell":{"water_surface_color":"#3F76E4","water_fog_color":"#050533"},
-		"the_end":{"water_surface_color":"#3F76E4","water_fog_color":"#050533"},
+		//"the_end":{"water_surface_color":"#3F76E4","water_fog_color":"#050533"},
 		"ice_plains":{"water_surface_color":"#3F76E4","water_fog_color":"#050533"},
 		"ice_plains_spikes":{"water_surface_color":"#3F76E4","water_fog_color":"#050533"},
 		"ice_mountains":{"water_surface_color":"#3F76E4","water_fog_color":"#050533"},
