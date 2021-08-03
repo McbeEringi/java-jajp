@@ -1075,6 +1075,7 @@ tile.concretePowder.magenta.name=赤紫色のコンクリート パウダー	#
 tile.concretePowder.orange.name=橙色のコンクリート パウダー	#
 tile.concretePowder.white.name=白色のコンクリート パウダー	#
 
+itemGroup.name.candles=ろうそく	#
 tile.candle.name=ろうそく	#
 tile.white_candle.name=白色のろうそく	＃
 tile.orange_candle.name=橙色のろうそく	#
