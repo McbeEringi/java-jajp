@@ -1,0 +1,4 @@
+item.record_otherside.desc=レナ・レーン - otherside	#
+item.bucketTadpole.name=オタマジャクシ入りバケツ	#
+item.spawn_egg.entity.frog.name=カエルのスポーンエッグ	#
+item.spawn_egg.entity.tadpole.name=オタマジャクシのスポーンエッグ	#

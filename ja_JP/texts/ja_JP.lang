@@ -1700,7 +1700,7 @@ tile.soul_campfire.name=魂の焚き火	#
 tile.soul_torch.name=魂の松明	#
 enchantment.soul_speed=ソウルスピード	#
 tile.soul_lantern.name=魂のランタン	#
-item.record_pigstep.desc=Lena Raine - Pigstep	#
+item.record_pigstep.desc=レナ・レーン - Pigstep	#
 
 tile.crimson_button.name=真紅のボタン	#
 tile.crimson_door.name=真紅のドア	#
@@ -1785,23 +1785,23 @@ tile.lodestone.name=ロードストーン	#
 item.lodestonecompass.name=誘導石のコンパス	#
 item.warped_fungus_on_a_stick.name=歪んだキノコ付きの棒	#
 
-item.banner_pattern.piglin=ピグリンの模様	#
-item.banner.piglin.black=黒色のピグリンの模様	#
-item.banner.piglin.blue=青色のピグリンの模様	#
-item.banner.piglin.brown=茶色のピグリンの模様	#
-item.banner.piglin.cyan=青緑色のピグリンの模様	#
-item.banner.piglin.gray=灰色のピグリンの模様	#
-item.banner.piglin.green=緑色のピグリンの模様	#
-item.banner.piglin.lightBlue=空色のピグリンの模様	#
-item.banner.piglin.lime=黄緑色のピグリンの模様	#
-item.banner.piglin.magenta=赤紫色のピグリンの模様	#
-item.banner.piglin.orange=橙色のピグリンの模様	#
-item.banner.piglin.pink=桃色のピグリンの模様	#
-item.banner.piglin.purple=紫色のピグリンの模様	#
-item.banner.piglin.red=赤色のピグリンの模様	#
-item.banner.piglin.silver=薄灰色のピグリンの模様	#
-item.banner.piglin.white=白色のピグリンの模様	#
-item.banner.piglin.yellow=黄色のピグリンの模様	#
+item.banner_pattern.piglin=ブタの鼻の模様	#
+item.banner.piglin.black=黒色のブタの鼻の模様	#
+item.banner.piglin.blue=青色のブタの鼻の模様	#
+item.banner.piglin.brown=茶色のブタの鼻の模様	#
+item.banner.piglin.cyan=青緑色のブタの鼻の模様	#
+item.banner.piglin.gray=灰色のブタの鼻の模様	#
+item.banner.piglin.green=緑色のブタの鼻の模様	#
+item.banner.piglin.lightBlue=空色のブタの鼻の模様	#
+item.banner.piglin.lime=黄緑色のブタの鼻の模様	#
+item.banner.piglin.magenta=赤紫色のブタの鼻の模様	#
+item.banner.piglin.orange=橙色のブタの鼻の模様	#
+item.banner.piglin.pink=桃色のブタの鼻の模様	#
+item.banner.piglin.purple=紫色のブタの鼻の模様	#
+item.banner.piglin.red=赤色のブタの鼻の模様	#
+item.banner.piglin.silver=薄灰色のブタの鼻の模様	#
+item.banner.piglin.white=白色のブタの鼻の模様	#
+item.banner.piglin.yellow=黄色のブタの鼻の模様	#
 
 entity.strider.name=ストライダー	#
 entity.hoglin.name=ホグリン	#
@@ -2003,3 +2003,11 @@ tile.brown_candle_cake.name=茶色のろうそく付きケーキ	#
 tile.green_candle_cake.name=緑色のろうそく付きケーキ	#
 tile.red_candle_cake.name=赤色のろうそく付きケーキ	#
 tile.black_candle_cake.name=黒色のろうそく付きケーキ	#
+
+
+##1.18
+
+item.record_otherside.desc=レナ・レーン - otherside	#
+item.bucketTadpole.name=オタマジャクシ入りバケツ	#
+item.spawn_egg.entity.frog.name=カエルのスポーンエッグ	#
+item.spawn_egg.entity.tadpole.name=オタマジャクシのスポーンエッグ	#
