@@ -1460,8 +1460,7 @@ tile.spruce_stairs.name=マツの階段	#
 
 ##ハーフブロック
 
-tile.stone_slab.smoothStone.name=滑らかな石のハーフブロック
-	#
+tile.stone_slab.smoothStone.name=滑らかな石のハーフブロック	#
 tile.stone_slab.wood.name=石化したオークのハーフブロック	#
 tile.double_stone_slab.wood.name=石化したオークのハーフブロック	#
 tile.wooden_slab.name=木材のハーフブロック	#
