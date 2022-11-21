@@ -1,31 +1,13 @@
 {
-	"namespace":"start",
-	"legacy_achievements_button@start.main_button":{"$pressed_button_name":"button.menu_achievements","$button_text":"menu.achievements","$focus_override_right":"profile_button"},
-	"lower_online_buttons_panel":{"type":"stack_panel","anchor_to":"bottom_left","anchor_from":"bottom_left","size":["50%-75px","100%c"],"offset":[0,"-10%"],"controls":[{"stacked_column":{"type":"stack_panel","size":["100%",32],"offset":["5%",0],"anchor_from":"top_left","anchor_to":"top_left","orientation":"horizontal","controls":[
-		{"feedback_padding":{"ignored":"$feedback_ignored","type":"panel","size":["5%",0],"bindings":[{"binding_name":"#feedback_visible","binding_name_override":"#visible"}]}},
-		{"feedback_btn@start.column_frame":{"ignored":"$feedback_ignored","size":[28,32],"controls":[{"feedback_button@start.feedback_button":{}}],"bindings":[{"binding_name":"#feedback_visible","binding_name_override":"#visible"}]}},
-		{"signingin":{"size":["default","100%"],"max_size":[120,"100%"],"type":"label","color":"$main_header_text_color","text":"#signingin_text","bindings":[{"binding_name":"#signingin_visible","binding_name_override":"#visible"},{"binding_name":"#signingin_text"}]}},
-		{"invite_padding":{"type":"panel","size":[3,0],"bindings":[{"binding_name":"#realms_notification_visible","binding_name_override":"#visible"}]}},
-		{"invite_btn_other@start.column_frame":{"size":[28,32],"controls":[{"invite_button@start.realms_pending_invite_panel":{}}]}}
-	]}}],"bindings":[{"binding_name":"#online_buttons_visible","binding_name_override":"#visible"}]},
-	"main_buttons_panel":{"type":"panel","size":[150,"100%c"],"controls":[
-		{"stacked_rows":{"type":"stack_panel","size":["100%","100%c"],"anchor_from":"bottom_middle","anchor_to":"bottom_middle","controls":[
-			{"stacked_row_0@start.stacked_row":{"ignored":"(not$play_button_visible)","controls":[{"play_button@start.play_button":{}}]}},
-			{"stacked_row_1@start.stacked_row":{"ignored":"$achievements_ignored","controls":[{"achievements_button@start.legacy_achievements_button":{}}]}},
-			{"stacked_row_toolbox@start.stacked_row":{"ignored":"$is_toolbox_ignored","controls":[{"toolbox_mode_button@start.toolbox_mode_button":{}}],"bindings":[{"binding_name":"#toolbox_button_visible","binding_name_override":"#visible"}]}},
-			{"course@start.stacked_row":{"ignored":"$courses_ignored","controls":[{"course_button@start.course_button":{}}]}},
-			{"featured_world@start.stacked_row":{"ignored":"$featured_world_ignored","controls":[{"featured_world_button@start.featured_world_button":{}}]}},
-			{"stacked_row_2@start.stacked_row":{"controls":[{"stacked_columns":{"type":"stack_panel","size":["100%","100%"],"orientation":"horizontal","controls":[
-				{"stacked_col_0":{"type":"panel","size":["fill","100%"],"controls":[{"settings_button@start.settings_button":{}}]}},
-				{"stacked_col_1":{"type":"panel","size":["fill","100%"],"ignored":"($store_ignored)","controls":[
-					{"store_button@start.store_button":{"enabled":"(not$store_disabled)","bindings":[{"binding_name":"(not#marketplace_disabled)","binding_name_override":"#visible"}]}},
-					{"update_icon@start.update_prompt_icon":{"size":["52.38%y",15],"offset":[-16,-6],"bindings":[{"binding_name":"#update_icon_visible","binding_name_override":"#visible","binding_condition":"always"}]}},
-					{"new_offers_icon@start.new_offers_icon":{"offset":[8,-6],"anchor_from":"top_right","anchor_to":"top_right","bindings":[{"binding_name":"#new_offers","binding_name_override":"#visible"}]}}
+	"start_screen_content":{"$trial":true,"$use_single_column_for_buttons":false},
+	"main_buttons_panel/stacked_rows":{
+		"modifications":[{
+			"control_name":"stacked_row_2","operation":"insert_before",
+			"value":[
+				{"stacked_row_1@start.stacked_row":{"controls":[
+					{"achievements_button@start.main_button":{"$pressed_button_name":"button.menu_achievements","$button_text":"menu.achievements"}}
 				]}}
-			]}}]}},
-			{"switch_accounts_row@start.stacked_row":{"ignored":"$switch_accounts_ignored","controls":[{"switch_accounts@start.switch_accounts_button":{}}]}},
-			{"buy_game@start.stacked_row":{"ignored":"$unlock_full_game_button_ignored","controls":[{"buy_game_button@start.buy_game_button":{}}]}},
-			{"launch_editions@start.stacked_row":{"ignored":"($trial or not$supports_launching_legacy_version)","controls":[{"launch_editions_button@start.launch_editions_button":{}}],"bindings":[{"binding_name":"#editions_visible","binding_name_override":"#visible"}]}}
-		]}}
-	]}
+			]
+		}]
+	}
 }
