@@ -1,8 +1,8 @@
 {
 	"format_version":1,
 	"header":{
-		"description":"JE翻訳&UIパック\nby @McbeEringi",
 		"name":"java ja_JP v19.0",
+		"description":"JE翻訳&UIパック\nby @McbeEringi",
 		"uuid":"e42b9eac-7ea1-dc32-93b7-c6aeb5c6f63d",
 		"version":[0,19,0]
 	},
@@ -12,4 +12,3 @@
 		"version":[0,19,0]
 	}]
 }
-// TODO: lang

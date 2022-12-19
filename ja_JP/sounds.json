@@ -1,8 +1,8 @@
 {
-	"individual_event_sounds": {
-		"events": {
-			"block.smithing_table.use": {"sound": "block.smithing_table.use", "volume": 1.0},
-			"block.fletching_table.use": {"sound": "block.fletching_table.use", "volume": 1.0}
+	"individual_event_sounds":{
+		"events":{
+			"block.smithing_table.use":{"sound":"block.smithing_table.use","volume":1.0},
+			"block.fletching_table.use":{"sound":"block.fletching_table.use","volume":1.0}
 		}
 	}
 }
