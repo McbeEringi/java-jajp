@@ -2008,6 +2008,8 @@ hudScreen.tooltip.basic.stopFlying=飛行の中止	#
 hudScreen.tooltip.basic.swimDown=潜る	#
 hudScreen.tooltip.basic.swimUp=浮上する	#
 
+playscreen.worlds=ワールド	#
+
 potion.absorption=衝撃吸収	#
 potion.blindness=盲目	#
 potion.conduitPower=コンジットパワー	#
@@ -2229,6 +2231,14 @@ feature.ancient_city=古代都市	#
 
 seedPicker.search=検索	#
 seedPicker.title=シード値の選択	#
+
+selectWorld.create=新規ワールド	#
+selectWorld.createNew=新規作成	#
+selectWorld.enterName=ワールド名	#
+selectWorld.tab.worlds=ワールド	#
+selectWorld.world=ワールド	#
+
+selectTemplate.generateRandom=ワールド新規作成	#
 
 store.search.filter.worldTemplates=ワールド	#
 
