@@ -286,6 +286,8 @@ localWorld.no_local_worlds_present=ワールドが表示されない場合は、
 localWorld.no_local_worlds_present.world_recovery=ワールドが表示されない場合は、外部ストレージでワールドの復元をお試しください。	#
 localWorld.no_local_worlds.world_recovery_button_label=ワールドを復元	#
 
+realmsSettingsScreen.worldSectionTitle=ワールド	#
+
 death.attack.anvil=%1$sは落下してきた金床に押しつぶされた	#
 death.attack.arrow=%1$sは%2$sに射抜かれた	#
 death.attack.arrow.item=%1$sは%2$sの%3$sで射抜かれた	#
@@ -3231,7 +3233,7 @@ structure_block.importProgressTitle=ストラクチャーをインポート中	#
 3d_export.export=エクスポート	#
 3d_export.reset=リセット	#
 
-trade.doesNotWant=（ '-'）	#
+trade.doesNotWant=（ -_-）	#
 trade.excalamation=！	#
 trade.expProgress=レベル%d／d	#
 trade.expMax=レベルMAX	#
@@ -3245,7 +3247,7 @@ trade.level.3=一人前	#
 trade.level.4=熟練者	#
 trade.level.5=達人	#
 trade.mysteriousText=？？？	#
-trade.notEnough=あと%s個！	#
+trade.notEnough=%s～（ '-'）	#
 trade.question=？	#
 trade.trade=取引	#
 
