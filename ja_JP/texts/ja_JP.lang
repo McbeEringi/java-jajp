@@ -687,8 +687,8 @@ level.editor.import.failed.incompatibleEdition=プロジェクト インポー�
 
 item.air.name=空気	#
 item.apple.name=リンゴ	#
-item.axolotlAdultBodySingle.name=大人ウーパールーパー (%1$s)	#
-item.axolotlBabyBodySingle.name=赤ちゃんウーパールーパー (%1$s)	#
+item.axolotlAdultBodySingle.name=%1$sのウーパールーパー	#
+item.axolotlBabyBodySingle.name=%1$sの赤ちゃんウーパールーパー	#
 item.axolotlColorLucy.name=ルーシー	#
 item.axolotlColorCyan.name=シアン	#
 item.axolotlColorGold.name=金色	#
